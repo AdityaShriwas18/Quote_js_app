@@ -4,7 +4,7 @@ let savedcard = document.querySelector('.saved-quote-list')
 
 async function getRandomQuote(){
     
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 50; i++) {
         try{
             const response = await fetch('https://api.freeapi.app/api/v1/public/quotes/quote/random')
             const data = await response.json()

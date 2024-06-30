@@ -19,9 +19,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10vh;
 }
 
-button {
+.savebtn{
     color: white;
   margin-top: 5vh;
   padding: 1vh;
@@ -35,9 +36,11 @@ button {
   background-color: rgba(190, 179, 201, 0.805);
 }
 
-button:hover{
+.savebtn:hover{
     background-color: rgba(168, 160, 177, 0.805);
 }
+
+
 
 nav {
   position: fixed;
@@ -93,7 +96,7 @@ ul {
 
 .navbar {
   position: fixed;
-  top: 10%;
+  top: 8.5%;
   right: 0;
   width: 250px;
   height: 90%;
